@@ -43,8 +43,8 @@ def parse_homework_status(homework):
 def get_homework_statuses(current_timestamp):
     """get status homework"""
     headers = {'Authorization': f'OAuth {PRACTICUM_TOKEN}'}
-    #params = {'from_date': current_timestamp}
-    params = {'from_date': 0}
+    params = {'from_date': current_timestamp}
+    #params = {'from_date': 0}
     try:
         homework_statuses = requests.get(f'{URL_API}/{METHOD_API}/',
             headers=headers,
@@ -74,7 +74,7 @@ def main():
         try:
             new_homework = get_homework_statuses(current_timestamp)
             if new_homework.get('homeworks'):
-                send_message(parse_homework_status(new_homework.get('homeworks')[3]))
+                send_message(parse_homework_status(new_homework.get('homeworks')[0]))
             # update timestamp
             current_timestamp = new_homework.get('current_date')
             # poll every 20 minutes
