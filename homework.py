@@ -1,4 +1,9 @@
-import os, requests, telegram, time, logging
+import os
+import requests
+import telegram
+import time
+import logging
+
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -16,53 +21,50 @@ TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
 CHAT_ID = os.getenv('TELEGRAM_CHAT_ID')
 
 proxy_server = telegram.utils.request.Request(proxy_url=PROXY)
+bot = telegram.Bot(token=TELEGRAM_TOKEN, request=proxy_server)
+
+STATUS = {'approved': 'Ревьюеру всё понравилось, '
+                      'можно приступать к следующему уроку.',
+          'rejected': 'К сожалению в работе нашлись ошибки.'}
 
 
 def parse_homework_status(homework):
     """check status homework"""
-    homework_name = homework['homework_name']
-    lesson_name = homework['lesson_name']
-    reviewer_comment = homework['reviewer_comment']
-
-    if reviewer_comment == '':
-        comment = "no comments"
-    else:
-        comment = reviewer_comment
-
-    if homework['status'] == 'rejected':
-        verdict = 'К сожалению в работе нашлись ошибки.'
-    else:
-        verdict = 'Ревьюеру всё понравилось, можно приступать к следующему уроку.'
-
-    return f'У вас проверили работу "{homework_name}"! ' \
-           f'\n По уроку: "{lesson_name}". ' \
-           f'\n С комментариями: "{comment}" ' \
-           f'\n\n{verdict}'
+    try:
+        homework_name = homework['homework_name']
+    except Exception as e:
+        log.error(f'Нет значения: {e}')
+    try:
+        homework_status = homework['status']
+    except Exception as e2:
+        log.error(f'Нет статуса: {e2}')
+    if homework_status in STATUS:
+        if homework_status == 'rejected':
+            verdict = STATUS['rejected']
+        else:
+            verdict = STATUS['approved']
+        return f'У вас проверили работу "{homework_name}"!\n\n{verdict}'
+    return f'Произошла ошибка при запросе статуса!'
 
 
 def get_homework_statuses(current_timestamp):
     """get status homework"""
     headers = {'Authorization': f'OAuth {PRACTICUM_TOKEN}'}
     params = {'from_date': current_timestamp}
-    #params = {'from_date': 0}
     try:
         homework_statuses = requests.get(f'{URL_API}/{METHOD_API}/',
             headers=headers,
             params=params)
-    except (requests.exceptions.RequestException,
-            requests.exceptions.HTTPError,
-            requests.exceptions.ConnectionError,
-            requests.exceptions.Timeout) as e:
-        log.error(f'Connection error: {e}')
-        print(f'Connection error: {e}')
+        return homework_statuses.json()
 
-    # returning the user's status homework
-    return homework_statuses.json()
+    except requests.exceptions.RequestException as e4:
+        log.error(f'Connection error: {e4}')
+        # returning the user's status homework
+        return print('Connection error for status request!')
 
 
 def send_message(message):
     """send message"""
-    bot = telegram.Bot(token=TELEGRAM_TOKEN, request=proxy_server)
     return bot.send_message(chat_id=CHAT_ID, text=message)
 
 
@@ -81,7 +83,6 @@ def main():
             time.sleep(1200)
 
         except Exception as e:
-            print(f'Bot crashed with an error: {e}')
             log.error(f'Bot crashed with an error: {e}')
             time.sleep(5)
             continue

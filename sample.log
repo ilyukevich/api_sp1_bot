@@ -10,3 +10,248 @@ ERROR:ex:Bot crashed with an error: Expecting value: line 1 column 1 (char 0)
 WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x7fc70f8b02b0>: Failed to establish a new connection: 0x04: Host unreachable')': /bot1144928367:AAEHKoUZeDIUVhyZrVo5kzX-5Fq9c7z6IfM/sendMessage
 WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x7fc70f8b0190>: Failed to establish a new connection: 0x04: Host unreachable')': /bot1144928367:AAEHKoUZeDIUVhyZrVo5kzX-5Fq9c7z6IfM/sendMessage
 WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x7fcee12e65e0>: Failed to establish a new connection: 0x04: Host unreachable')': /bot1144928367:AAEHKoUZeDIUVhyZrVo5kzX-5Fq9c7z6IfM/sendMessage
+WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x7ffae33a4820>: Failed to establish a new connection: 0x04: Host unreachable')': /bot1144928367:AAEHKoUZeDIUVhyZrVo5kzX-5Fq9c7z6IfM/sendMessage
+ERROR:ex:Bot crashed with an error: name 'RequestException' is not defined
+ERROR:ex:Bot crashed with an error: name 'RequestException' is not defined
+ERROR:ex:Bot crashed with an error: name 'RequestException' is not defined
+ERROR:ex:Bot crashed with an error: name 'RequestException' is not defined
+ERROR:ex:Bot crashed with an error: name 'RequestException' is not defined
+ERROR:ex:Bot crashed with an error: name 'RequestException' is not defined
+ERROR:ex:Bot crashed with an error: name 'RequestException' is not defined
+ERROR:ex:Bot crashed with an error: name 'RequestException' is not defined
+ERROR:ex:Bot crashed with an error: name 'RequestException' is not defined
+ERROR:ex:Bot crashed with an error: name 'RequestException' is not defined
+ERROR:ex:Bot crashed with an error: name 'request' is not defined
+ERROR:ex:Bot crashed with an error: name 'request' is not defined
+ERROR:ex:Connection error: HTTPSConnectionPool(host='praktikum.yandex.ru', port=443): Max retries exceeded with url: /api/user_api/homework_statuses/?from_date=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7ff5070805e0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+ERROR:ex:Bot crashed with an error: 'str' object has no attribute 'get'
+ERROR:ex:Connection error: HTTPSConnectionPool(host='praktikum.yandex.ru', port=443): Max retries exceeded with url: /api/user_api/homework_statuses/?from_date=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7ff507080670>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+ERROR:ex:Bot crashed with an error: 'str' object has no attribute 'get'
+ERROR:ex:Connection error: HTTPSConnectionPool(host='praktikum.yandex.ru', port=443): Max retries exceeded with url: /api/user_api/homework_statuses/?from_date=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7ff507080580>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+ERROR:ex:Bot crashed with an error: 'str' object has no attribute 'get'
+ERROR:ex:Connection error: HTTPSConnectionPool(host='praktikum.yandex.ru', port=443): Max retries exceeded with url: /api/user_api/homework_statuses/?from_date=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7ff5070806d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+ERROR:ex:Bot crashed with an error: 'str' object has no attribute 'get'
+ERROR:ex:Connection error: HTTPSConnectionPool(host='praktikum.yandex.ru', port=443): Max retries exceeded with url: /api/user_api/homework_statuses/?from_date=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7ff507080640>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+ERROR:ex:Bot crashed with an error: 'str' object has no attribute 'get'
+ERROR:ex:Connection error: HTTPSConnectionPool(host='praktikum.yandex.ru', port=443): Max retries exceeded with url: /api/user_api/homework_statuses/?from_date=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7ff507080790>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+ERROR:ex:Bot crashed with an error: 'str' object has no attribute 'get'
+ERROR:ex:Connection error: HTTPSConnectionPool(host='praktikum.yandex.ru', port=443): Max retries exceeded with url: /api/user_api/homework_statuses/?from_date=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7ff507080ac0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+ERROR:ex:Bot crashed with an error: 'str' object has no attribute 'get'
+ERROR:ex:Connection error: HTTPSConnectionPool(host='praktikum.yandex.ru', port=443): Max retries exceeded with url: /api/user_api/homework_statuses/?from_date=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7ff507080460>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+ERROR:ex:Bot crashed with an error: 'str' object has no attribute 'get'
+ERROR:ex:Connection error: HTTPSConnectionPool(host='praktikum.yandex.ru', port=443): Max retries exceeded with url: /api/user_api/homework_statuses/?from_date=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7ff507080250>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+ERROR:ex:Bot crashed with an error: 'str' object has no attribute 'get'
+ERROR:ex:Connection error: HTTPSConnectionPool(host='praktikum.yandex.ru', port=443): Max retries exceeded with url: /api/user_api/homework_statuses/?from_date=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7ff507080520>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+ERROR:ex:Bot crashed with an error: 'str' object has no attribute 'get'
+ERROR:ex:Connection error: HTTPSConnectionPool(host='praktikum.yandex.ru', port=443): Max retries exceeded with url: /api/user_api/homework_statuses/?from_date=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7ff507080730>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+ERROR:ex:Bot crashed with an error: 'str' object has no attribute 'get'
+ERROR:ex:Connection error: HTTPSConnectionPool(host='praktikum.yandex.ru', port=443): Max retries exceeded with url: /api/user_api/homework_statuses/?from_date=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7ff507080f10>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+ERROR:ex:Bot crashed with an error: 'str' object has no attribute 'get'
+ERROR:ex:Connection error: HTTPSConnectionPool(host='praktikum.yandex.ru', port=443): Max retries exceeded with url: /api/user_api/homework_statuses/?from_date=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7ff5070809d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+ERROR:ex:Bot crashed with an error: 'str' object has no attribute 'get'
+ERROR:ex:Connection error: HTTPSConnectionPool(host='praktikum.yandex.ru', port=443): Max retries exceeded with url: /api/user_api/homework_statuses/?from_date=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7ff507080ee0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+ERROR:ex:Bot crashed with an error: 'str' object has no attribute 'get'
+ERROR:ex:Bot crashed with an error: name 'RequestException' is not defined
+ERROR:ex:Bot crashed with an error: name 'RequestException' is not defined
+ERROR:ex:Bot crashed with an error: name 'RequestException' is not defined
+WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x7f40e2321820>: Failed to establish a new connection: 0x04: Host unreachable')': /bot1144928367:AAEHKoUZeDIUVhyZrVo5kzX-5Fq9c7z6IfM/sendMessage
+ERROR:ex:Connection error: HTTPSConnectionPool(host='praktikum.yandex.ru', port=443): Max retries exceeded with url: /api/user_api/homework_statuses/?from_date=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f98ac3945e0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+ERROR:ex:Bot crashed with an error: 'str' object has no attribute 'get'
+ERROR:ex:Connection error: HTTPSConnectionPool(host='praktikum.yandex.ru', port=443): Max retries exceeded with url: /api/user_api/homework_statuses/?from_date=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f98ac394670>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+ERROR:ex:Bot crashed with an error: 'str' object has no attribute 'get'
+ERROR:ex:Connection error: HTTPSConnectionPool(host='praktikum.yandex.ru', port=443): Max retries exceeded with url: /api/user_api/homework_statuses/?from_date=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f98ac394580>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+ERROR:ex:Bot crashed with an error: 'str' object has no attribute 'get'
+ERROR:ex:Connection error: HTTPSConnectionPool(host='praktikum.yandex.ru', port=443): Max retries exceeded with url: /api/user_api/homework_statuses/?from_date=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f98ac3946d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+ERROR:ex:Bot crashed with an error: 'str' object has no attribute 'get'
+ERROR:ex:Connection error: HTTPSConnectionPool(host='praktikum.yandex.ru', port=443): Max retries exceeded with url: /api/user_api/homework_statuses/?from_date=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f98ac394640>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+ERROR:ex:Bot crashed with an error: 'str' object has no attribute 'get'
+ERROR:ex:Connection error: HTTPSConnectionPool(host='praktikum.yandex.ru', port=443): Max retries exceeded with url: /api/user_api/homework_statuses/?from_date=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f98ac394790>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+ERROR:ex:Bot crashed with an error: 'str' object has no attribute 'get'
+ERROR:ex:Connection error: HTTPSConnectionPool(host='praktikum.yandex.ru', port=443): Max retries exceeded with url: /api/user_api/homework_statuses/?from_date=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f98ac394ac0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+ERROR:ex:Bot crashed with an error: 'str' object has no attribute 'get'
+ERROR:ex:Connection error: HTTPSConnectionPool(host='praktikum.yandex.ru', port=443): Max retries exceeded with url: /api/user_api/homework_statuses/?from_date=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f98ac394460>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+ERROR:ex:Bot crashed with an error: 'str' object has no attribute 'get'
+ERROR:ex:Connection error: HTTPSConnectionPool(host='praktikum.yandex.ru', port=443): Max retries exceeded with url: /api/user_api/homework_statuses/?from_date=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f7cbd9a25e0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+ERROR:ex:Bot crashed with an error: 'str' object has no attribute 'get'
+ERROR:ex:Connection error: HTTPSConnectionPool(host='praktikum.yandex.ru', port=443): Max retries exceeded with url: /api/user_api/homework_statuses/?from_date=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f7cbd9a2670>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+ERROR:ex:Bot crashed with an error: 'str' object has no attribute 'get'
+ERROR:ex:Connection error: HTTPSConnectionPool(host='praktikum.yandex.ru', port=443): Max retries exceeded with url: /api/user_api/homework_statuses/?from_date=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f7cbd9a2580>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+ERROR:ex:Bot crashed with an error: 'str' object has no attribute 'get'
+ERROR:ex:Connection error: HTTPSConnectionPool(host='praktikum.yandex.ru', port=443): Max retries exceeded with url: /api/user_api/homework_statuses/?from_date=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f7cbd9a26d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+ERROR:ex:Bot crashed with an error: 'str' object has no attribute 'get'
+ERROR:ex:Connection error: HTTPSConnectionPool(host='praktikum.yandex.ru', port=443): Max retries exceeded with url: /api/user_api/homework_statuses/?from_date=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f7cbd9a2640>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+ERROR:ex:Bot crashed with an error: 'str' object has no attribute 'get'
+ERROR:ex:Connection error: HTTPSConnectionPool(host='praktikum.yandex.ru', port=443): Max retries exceeded with url: /api/user_api/homework_statuses/?from_date=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f7cbd9a2790>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+ERROR:ex:Bot crashed with an error: 'str' object has no attribute 'get'
+ERROR:ex:Connection error: HTTPSConnectionPool(host='praktikum.yandex.ru', port=443): Max retries exceeded with url: /api/user_api/homework_statuses/?from_date=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f7cbd9a2ac0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+ERROR:ex:Bot crashed with an error: 'str' object has no attribute 'get'
+WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x7f0437fb2820>: Failed to establish a new connection: 0x04: Host unreachable')': /bot1144928367:AAEHKoUZeDIUVhyZrVo5kzX-5Fq9c7z6IfM/sendMessage
+ERROR:ex:Bot crashed with an error: name 'RequestException' is not defined
+ERROR:ex:Bot crashed with an error: name 'RequestException' is not defined
+ERROR:ex:Bot crashed with an error: name 'RequestException' is not defined
+ERROR:ex:Bot crashed with an error: name 'RequestException' is not defined
+ERROR:ex:Bot crashed with an error: name 'RequestException' is not defined
+ERROR:ex:Bot crashed with an error: name 'RequestException' is not defined
+ERROR:ex:Bot crashed with an error: name 'RequestException' is not defined
+ERROR:ex:Bot crashed with an error: name 'RequestException' is not defined
+ERROR:ex:Bot crashed with an error: name 'RequestException' is not defined
+ERROR:ex:Bot crashed with an error: name 'RequestException' is not defined
+ERROR:ex:Bot crashed with an error: name 'RequestException' is not defined
+ERROR:ex:Bot crashed with an error: name 'RequestException' is not defined
+ERROR:ex:Bot crashed with an error: name 'RequestException' is not defined
+ERROR:ex:Bot crashed with an error: name 'RequestException' is not defined
+ERROR:ex:Bot crashed with an error: name 'RequestException' is not defined
+ERROR:ex:Bot crashed with an error: name 'RequestException' is not defined
+ERROR:ex:Bot crashed with an error: name 'RequestException' is not defined
+ERROR:ex:Bot crashed with an error: name 'RequestException' is not defined
+ERROR:ex:Bot crashed with an error: name 'RequestException' is not defined
+ERROR:ex:Bot crashed with an error: name 'RequestException' is not defined
+ERROR:ex:Bot crashed with an error: name 'RequestException' is not defined
+ERROR:ex:Bot crashed with an error: name 'RequestException' is not defined
+ERROR:ex:Bot crashed with an error: name 'RequestException' is not defined
+ERROR:ex:Bot crashed with an error: name 'RequestException' is not defined
+ERROR:ex:Connection error: HTTPSConnectionPool(host='praktikum.yandex.ru', port=443): Max retries exceeded with url: /api/user_api/homework_statuses/?from_date=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa886a035e0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+ERROR:ex:Bot crashed with an error: 'str' object has no attribute 'get'
+ERROR:ex:Connection error: HTTPSConnectionPool(host='praktikum.yandex.ru', port=443): Max retries exceeded with url: /api/user_api/homework_statuses/?from_date=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa886a03670>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+ERROR:ex:Bot crashed with an error: 'str' object has no attribute 'get'
+ERROR:ex:Connection error: HTTPSConnectionPool(host='praktikum.yandex.ru', port=443): Max retries exceeded with url: /api/user_apihomework_statuses/?from_date=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fad9a5c65e0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+ERROR:ex:Bot crashed with an error: 'str' object has no attribute 'get'
+ERROR:ex:Connection error: HTTPSConnectionPool(host='praktikum.yandex.ru', port=443): Max retries exceeded with url: /api/user_apihomework_statuses/?from_date=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fad9a5c6670>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+ERROR:ex:Bot crashed with an error: 'str' object has no attribute 'get'
+ERROR:ex:Connection error: HTTPSConnectionPool(host='praktikum.yandex.ru', port=443): Max retries exceeded with url: /api/user_apihomework_statuses/?from_date=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fad9a5c6580>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+ERROR:ex:Bot crashed with an error: 'str' object has no attribute 'get'
+ERROR:ex:Connection error: HTTPSConnectionPool(host='praktikum.yandex.ru', port=443): Max retries exceeded with url: /api/user_apihomework_statuses/?from_date=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fad9a5c66d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+ERROR:ex:Bot crashed with an error: 'str' object has no attribute 'get'
+ERROR:ex:Connection error: HTTPSConnectionPool(host='praktikum.yandex.ru', port=443): Max retries exceeded with url: /api/user_apihomework_statuses/?from_date=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fad9a5c6640>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+ERROR:ex:Bot crashed with an error: 'str' object has no attribute 'get'
+ERROR:ex:Bot crashed with an error: Expecting value: line 1 column 1 (char 0)
+ERROR:ex:Bot crashed with an error: Expecting value: line 1 column 1 (char 0)
+ERROR:ex:Bot crashed with an error: Expecting value: line 1 column 1 (char 0)
+WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x7efc7f0c1820>: Failed to establish a new connection: 0x04: Host unreachable')': /bot1144928367:AAEHKoUZeDIUVhyZrVo5kzX-5Fq9c7z6IfM/sendMessage
+WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'ConnectTimeoutError(<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x7efc7f0c14f0>, 'Connection to api.telegram.org timed out. (connect timeout=5.0)')': /bot1144928367:AAEHKoUZeDIUVhyZrVo5kzX-5Fq9c7z6IfM/sendMessage
+ERROR:ex:Connection error: HTTPSConnectionPool(host='praktikum.yandex.ru', port=443): Max retries exceeded with url: /api/user_api/homework_statuses/?from_date=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f66b1baf5e0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+ERROR:ex:Bot crashed with an error: 'NoneType' object has no attribute 'get'
+ERROR:ex:Connection error: HTTPSConnectionPool(host='praktikum.yandex.ru', port=443): Max retries exceeded with url: /api/user_api/homework_statuses/?from_date=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f66b1baf670>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+ERROR:ex:Bot crashed with an error: 'NoneType' object has no attribute 'get'
+ERROR:ex:Connection error: HTTPSConnectionPool(host='praktikum.yandex.ru', port=443): Max retries exceeded with url: /api/user_api/homework_statuses/?from_date=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f66b1baf580>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+ERROR:ex:Bot crashed with an error: 'NoneType' object has no attribute 'get'
+ERROR:ex:Connection error: HTTPSConnectionPool(host='praktikum.yandex.ru', port=443): Max retries exceeded with url: /api/user_api/homework_statuses/?from_date=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f66b1baf6d0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+ERROR:ex:Bot crashed with an error: 'NoneType' object has no attribute 'get'
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+ERROR:ex:Error parse homework status: local variable 'verdict' referenced before assignment
+ERROR:ex:Bot crashed with an error: local variable 'verdict' referenced before assignment
+WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x7f1182119820>: Failed to establish a new connection: 0x04: Host unreachable')': /bot1144928367:AAEHKoUZeDIUVhyZrVo5kzX-5Fq9c7z6IfM/sendMessage
+WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x7f11821194f0>: Failed to establish a new connection: 0x04: Host unreachable')': /bot1144928367:AAEHKoUZeDIUVhyZrVo5kzX-5Fq9c7z6IfM/sendMessage
+ERROR:ex:Connection error: HTTPSConnectionPool(host='praktikum.yandex.ru', port=443): Max retries exceeded with url: /api/user_api/homework_statuses/?from_date=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa9643655e0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+ERROR:ex:Bot crashed with an error: 'NoneType' object has no attribute 'get'
+ERROR:ex:Connection error: HTTPSConnectionPool(host='praktikum.yandex.ru', port=443): Max retries exceeded with url: /api/user_api/homework_statuses/?from_date=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa964365670>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+ERROR:ex:Bot crashed with an error: 'NoneType' object has no attribute 'get'
+ERROR:ex:Connection error: HTTPSConnectionPool(host='praktikum.yandex.ru', port=443): Max retries exceeded with url: /api/user_api/homework_statuses/?from_date=0 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa964365580>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+ERROR:ex:Bot crashed with an error: 'NoneType' object has no attribute 'get'
+WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.contrib.socks.SOCKSHTTPSConnection object at 0x7f4fb54e9820>: Failed to establish a new connection: 0x04: Host unreachable')': /bot1144928367:AAEHKoUZeDIUVhyZrVo5kzX-5Fq9c7z6IfM/sendMessage
