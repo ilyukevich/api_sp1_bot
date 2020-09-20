@@ -1,10 +1,12 @@
+import logging
 import os
+import time
+
 import requests
 import telegram
-import time
-import logging
 
 from dotenv import load_dotenv
+
 
 load_dotenv()
 
@@ -30,37 +32,47 @@ STATUS = {'approved': 'Ревьюеру всё понравилось, '
 
 def parse_homework_status(homework):
     """check status homework"""
-    try:
-        homework_name = homework['homework_name']
-    except Exception as e:
-        log.error(f'Нет значения: {e}')
-    try:
-        homework_status = homework['status']
-    except Exception as e2:
-        log.error(f'Нет статуса: {e2}')
-    if homework_status in STATUS:
-        if homework_status == 'rejected':
-            verdict = STATUS['rejected']
-        else:
-            verdict = STATUS['approved']
-        return f'У вас проверили работу "{homework_name}"!\n\n{verdict}'
-    return f'Произошла ошибка при запросе статуса!'
+    if not homework.get('homework_name'):
+        log.error(f'An error occurred while requesting a name value!')
+        return f'An error occurred while requesting a name value!'
+    homework_name = homework.get('homework_name')
+
+    if not homework.get('status'):
+        log.error(f'An error occured while requesting a status value!')
+        return f'An error occured while requesting a status value!'
+    homework_status = homework.get('status')
+
+    if homework_status not in STATUS:
+        log.error(f'Sorry! Job status request failed!')
+        return f'Sorry! Job status request failed!'
+
+    if homework_status == 'rejected':
+        verdict = STATUS['rejected']
+    else:
+        verdict = STATUS['approved']
+    return f'У вас проверили работу "{homework_name}"!\n\n{verdict}'
 
 
 def get_homework_statuses(current_timestamp):
     """get status homework"""
+    if current_timestamp is None:
+        log.error(f'Error current timestamp!')
+        return {}
+
     headers = {'Authorization': f'OAuth {PRACTICUM_TOKEN}'}
     params = {'from_date': current_timestamp}
+
     try:
         homework_statuses = requests.get(f'{URL_API}/{METHOD_API}/',
             headers=headers,
             params=params)
+        # return homework status
         return homework_statuses.json()
 
-    except requests.exceptions.RequestException as e4:
-        log.error(f'Connection error: {e4}')
-        # returning the user's status homework
-        return print('Connection error for status request!')
+    except requests.exceptions.RequestException as e:
+        log.error(f'Connection error: {e}')
+        # return homework status on error
+        return {}
 
 
 def send_message(message):
@@ -69,6 +81,7 @@ def send_message(message):
 
 
 def main():
+    """main"""
     # initial timestamp value
     current_timestamp = int(time.time())
 
