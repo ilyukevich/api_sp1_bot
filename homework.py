@@ -32,18 +32,18 @@ STATUS = {'approved': 'Ревьюеру всё понравилось, '
 def parse_homework_status(homework):
     """check status homework"""
     if not homework.get('homework_name'):
-        log.error(f'An error occurred while requesting a name value!')
-        return f'An error occurred while requesting a name value!'
+        log.error('An error occurred while requesting a name value!')
+        return 'An error occurred while requesting a name value!'
     homework_name = homework.get('homework_name')
 
     if not homework.get('status'):
-        log.error(f'An error occured while requesting a status value!')
-        return f'An error occured while requesting a status value!'
+        log.error('An error occured while requesting a status value!')
+        return 'An error occured while requesting a status value!'
     homework_status = homework.get('status')
 
     if homework_status not in STATUS:
-        log.error(f'Sorry! Job status request failed!')
-        return f'Sorry! Job status request failed!'
+        log.error('Sorry! Job status request failed!')
+        return 'Sorry! Job status request failed!'
 
     if homework_status == 'rejected':
         verdict = STATUS['rejected']
@@ -55,8 +55,8 @@ def parse_homework_status(homework):
 def get_homework_statuses(current_timestamp):
     """get status homework"""
     if current_timestamp is None:
-        log.error(f'Error current timestamp!')
-        return {}
+        log.error('Error current timestamp!')
+        current_timestamp = int(time.time())
 
     headers = {'Authorization': f'OAuth {PRACTICUM_TOKEN}'}
     params = {'from_date': current_timestamp}

@@ -268,3 +268,4 @@ ERROR:ex:Connection errorrrr: HTTPSConnectionPool(host='praktikum.yandex.ru', po
 ERROR:ex:Bot crashed with an error: Expecting value: line 1 column 1 (char 0)
 ERROR:ex:Bot crashed with an error: Expecting value: line 1 column 1 (char 0)
 ERROR:ex:Bot crashed with an error: Expecting value: line 1 column 1 (char 0)
+ERROR:ex:Sorry! Job status request failed!
